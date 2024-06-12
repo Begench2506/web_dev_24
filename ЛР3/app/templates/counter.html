@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container mt-5 fs-5 text-center">
+        <h3>Это страница счетчика. <br> Она отображает информацию о количестве посещений Вами данной страницы.</h3> <br> <p>Текущий счетчик: {{ session['count'] }}</p>
+    </div>
+{% endblock %}

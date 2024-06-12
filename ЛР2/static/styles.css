@@ -1,0 +1,11 @@
+.footer {
+    flex: 0 0 auto;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto; */
+}
+
+.full{
+    height: 78vh;
+}
